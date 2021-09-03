@@ -10,7 +10,7 @@ Future<void> main(List<String> args) async {
 }
 
 // async* means that there is no return value.
-// we use yeild keyword to rerturn contineous value
+// we use yeild keyword to return contineous value
 Stream<String> changeInterval() async* {
   for (int i = 1; i < 5; i++) {
     yield await Future.delayed(
