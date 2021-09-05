@@ -18,14 +18,14 @@ Stream<String> customFunction() async* {
 }
 
 // Future Builder Code
-class CustomFutureBuilder extends StatefulWidget {
-  const CustomFutureBuilder({Key? key}) : super(key: key);
+class CustomStreamBuilder extends StatefulWidget {
+  const CustomStreamBuilder({Key? key}) : super(key: key);
 
   @override
-  _CustomFutureBuilderState createState() => _CustomFutureBuilderState();
+  _CustomStreamBuilderState createState() => _CustomStreamBuilderState();
 }
 
-class _CustomFutureBuilderState extends State<CustomFutureBuilder> {
+class _CustomStreamBuilderState extends State<CustomStreamBuilder> {
   Stream<String> _stream = customFunction();
   @override
   Widget build(BuildContext context) {
