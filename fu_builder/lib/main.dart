@@ -17,7 +17,7 @@ Stream<String> customFunction() async* {
   }
 }
 
-// Future Builder Code
+// Stream Builder Code
 class CustomStreamBuilder extends StatefulWidget {
   const CustomStreamBuilder({Key? key}) : super(key: key);
 
