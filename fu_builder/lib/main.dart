@@ -50,6 +50,3 @@ class _CustomFutureBuilderState extends State<CustomFutureBuilder> {
     );
   }
 }
-
-
-
