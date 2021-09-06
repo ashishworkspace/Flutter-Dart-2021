@@ -50,6 +50,3 @@ class _CustomStreamBuilderState extends State<CustomStreamBuilder> {
     );
   }
 }
-
-
-
